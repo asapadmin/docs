@@ -222,4 +222,11 @@
 		Disallow: /
 
 Если сайт был перенесен на хостинг заказчика
-* Открыть сайт для индексации - удалить сожержимое файла `robots.txt`
+* Открыть сайт для индексации файл `robots.txt`
+
+		User-agent: *
+		Allow: /
+		User-agent: Yandex
+		Allow: /
+		User-agent: Googlebot
+		Allow: /
